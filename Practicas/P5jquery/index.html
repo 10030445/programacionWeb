@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica4</title>
+    
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/archivo.js"></script>
+
+  </head>
+  <body>
+    <h1>Practica4</h1>
+    <h1>Practica4.1</h1>
+    <h1>Practica4.2</h1>
+
+
+    <div class="row">
+    	<div class="col-md-6">
+    		<img src="img/1.jpg" width="500px" id="img1">
+    	</div >
+
+    	<div class="col-md-6"></div>
+    		<button id="btn1" class="btn btn-primary">Imagen1</button>
+    		<button id="btn2" class="btn btn-primary">Imagen2</button>
+    		<button id="btn3" class="btn btn-primary">Imagen3</button>
+	</div>
+
+
+
+    <div class="container text-center">
+
+		<div class="row">
+			<div class="col-md-6">
+				<form name="calc">
+					<label for="operador1">Operador 1</label>
+					<input type="number"	
+							value="0" 
+							name="operador1"
+							id="operador1"
+							class="form-control text-center">
+
+					<label for="operador2">Operador 2</label>
+					<input  type="text"	
+							value="2" 
+							id="operador2"
+							name="operador2"
+							class="form-control text-center">
+					
+					<input type="button"	
+							value=" + "
+							onclick="calcula('+')"
+							class= "btn btn-sucess">
+
+					<input type="button"	
+							value=" - "
+							onclick="calcula('-')"
+							class= "btn btn-default">
+					
+					<input type="button"	
+							value=" * "
+							onclick="calcula('*')"
+							class= "btn btn-danger">
+
+
+					<input type="button"	
+							value=" / "
+							onclick="calcula('/')"
+							class= "btn btn-info">
+
+					<input type="text"	
+							value=""
+							name="resultado"
+							placeholder="Resultado"
+							class="form-control text-center">
+
+				</form>
+			</div>
+
+			<div class="col-md-6">
+				<form name="conv">
+					<label for="conversor1">CANTIDAD (cms)</label>
+					<input type="number"	
+							value="0" 
+							name="conversor1"
+							id="conversor1"
+							class="form-control text-center">
+
+				
+					<input type="button"	
+							value=" ms "
+							onclick="metros('/')"
+							class= "btn btn-sucess">
+
+					<input type="button"	
+							value=" kms "
+							onclick="kms('/')"
+							class= "btn btn-default">
+					
+					<input type="button"	
+							value=" inch "
+							onclick="pulg('/')"
+							class= "btn btn-danger">
+
+
+					<input type="button"	
+							value=" ft "
+							onclick="ft('/')"
+							class= "btn btn-info">
+
+					<input type="text"	
+							value=""
+							name="resultado"
+							placeholder="Resultado"
+							class="form-control text-center">
+
+				</form>
+			</div>
+		</div>
+	</div>	
+
+
+  </body>
+</html>

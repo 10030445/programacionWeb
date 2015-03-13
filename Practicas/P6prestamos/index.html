@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica6</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </head>
+ 
+  <body>
+    <h1>FINANCIAMIENTO DE PRESTAMOS ONLINE</h1>
+
+    <div class="container text-center">
+
+    		
+    <div class="row">
+    		<div class="col-md-6">
+                <form name="prestamos">
+                        <div clas="form-group">
+                        <label for="description">IGRESE SU PLAN DE FINANCIAMIENTO:</label>
+                        <div>
+                            <label for="monto">Monto</label>
+                            <div class="input-group-addon">$</div>
+                            <input class="form-control"
+                                    type="text"
+                                    name="monto"
+                                    id="monto"
+                                    required>
+
+                            <label for="email2">Numero de meses</label>        
+                            <input class="form-control"
+                                    type="text"
+                                    name="meses"
+                                    id="meses"
+                                    required>
+
+                         
+                            <label for="interes">Interés</label> 
+                            <div class="form-group">
+                            <input class="btn btn-primary" 
+                                    type="submit"
+                                    id="calcula"
+                                    value="Calcular interes">
+                          
+
+                            <input class="form-control"
+                                    type="text"
+                                    name="intereses"
+                                    id="intereses"
+                                    value="";
+                                    >
+                            </div> 
+
+                        </div>
+                        </div>   
+    
+    </div> <!--colum-->
+
+
+    <div class="col-md-6">
+
+        <label for="description">DETALES DEL PRESTAMO:</label>
+                        <div> 
+                            <label for="description">Monto solicitado</label>
+                                <input class="form-control"
+                                    type="text"
+                                    name="monto2"
+                                    id="monto2">
+
+                            <label for="description">Valor total del prestamo</label>
+                                <input class="form-control"
+                                    type="text"
+                                    name="total"
+                                    id="total">
+
+                             <label for="description">Pago mensual</label>
+                                <input class="form-control"
+                                    type="text"
+                                    name="pago"
+                                    id="pago">
+                        </div>
+    </div>
+
+</div><!--row-->
+
+    </body>
+</html>
+
