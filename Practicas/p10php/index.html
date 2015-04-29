@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+ 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    
+  </head>
+  <body>
+    <h4>Fill out the fields below and hit "Register"</h4>
+
+    <div class="container text-center">
+
+   	 <div class="row">
+   		 
+    	<div class="col-md-5">
+           
+   
+            <form class="form-horizontal">
+                <form method="GET" action="formulario.html">
+                <div class="form-group">
+                    <label for="email" class="col-sm-4 control-label">Email</label>
+                    <div class="col-sm-8"> 
+                        <input type="email" class="form-control" id="email" placeholder="Email" required> 
+                     
+                    </div>
+                </div> 
+       
+
+                <div class="form-group">
+                    <label for="confemail" class="col-sm-4 control-label">Confirm Email</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control" id="confemail" placeholder="Confirm Email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                <label for="sex" class="col-sm-4 control-label">Sex:   </label>
+                    <div class="radio" >
+                        <div class="col-sm-4">
+                        <label>
+                            <input type="radio" name="sex" id="genero">
+                            Male
+                        </label>
+                        <label>
+                            <input type="radio" name="sex" placeholder="sex">
+                            Female
+                        </label>
+                        </div>
+                     </div>
+                     </div>
+
+                     
+
+                <div class="form-group">
+                    <label for="birth" class="col-sm-4 control-label">Year of Birth</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="birth" placeholder="Date of Birth" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="zip" class="col-sm-4 control-label">Zip/Postal Code</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="zip" placeholder="Zip/Postal Code" required>
+                    </div>
+                    <br>(eg 98104)</br>
+                </div>
+
+                 <div class="form-group">
+                    <div class="form-group">
+                     <label for="estado" class="col-sm-4 control-label">Country</label>
+                     <div class="col-sm-7">
+                         <select class="form-control" name="estado">
+                             <option>(Select Country)</option>
+                             <option>Guanajuato</option>
+                             <option>Guerrero</option>
+                             <option>Jalisco</option>
+                             <option>Otro</option>
+                         </select>
+                    </div>     
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="pwd" class="col-sm-4 control-label">Password</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" id="pwd" placeholder="Password" required>
+                    </div>
+                </div>  
+
+                <div class="form-group">
+                    <label for="cpwd" class="col-sm-4 control-label">Confirm Password</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" id="cpwd" placeholder="Confirm Password" required>
+                    </div>
+                </div>  
+                
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <input class="btn btn-primary" type="submit" value="Register">
+                    </div>
+                </div>
+            </form>
+
+                   	
+    	</div>
+    	
+
+     </div>
+   
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </body>
+</html>
